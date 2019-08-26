@@ -1,0 +1,11 @@
+export const SET_UID = 'SET_UID'
+export const SET_USERINFO = 'SET_USERINFO'
+export const SET_PLAYLIST = 'SET_PLAYLIST'
+export const SET_PLAYINGSONG = 'SET_PLAYINGSONG'
+export const SET_SONGURL = 'SET_SONGURL'
+export const SET_CURRENTINDEX = 'SET_CURRENTINDEX'
+export const SET_LASTSHARE = 'SET_LASTSHARE'
+export const SET_MODE = 'SET_MODE'
+export const SET_MESS = 'SET_MESS'
+export const SET_MESSSHOW = 'SET_MESSSHOW'
+
