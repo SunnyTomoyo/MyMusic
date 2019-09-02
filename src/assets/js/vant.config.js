@@ -8,4 +8,3 @@ export default {
     components.forEach(c => Vue.use(c))
   }
 }
-// Cell, CellGroup, Tab, Tabs, Row, Col, NavBar, Tabbar, TabbarItem,

@@ -11,6 +11,7 @@ import Vant from './assets/js/vant.config'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import VueJsonp from 'vue-jsonp'
+// 多行...指令
 import clamp from './assets/js/clamp'
 import { Lazyload } from 'vant'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
@@ -35,7 +36,6 @@ new Vue({
   el: '#app',
   router,
   store,
-  // clamp,
   components: { App },
   template: '<App/>'
 })

@@ -112,6 +112,5 @@
 			line-height: 30px;
 		}
 	}
-
 }
 </style>

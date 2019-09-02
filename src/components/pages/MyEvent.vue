@@ -213,9 +213,6 @@
 				      this.mainText.push('')
 				    }
 			    })
-			    console.log(JSON.parse(events[2].json).event)
-			    console.log(JSON.parse(events[4].json))
-			    console.log(JSON.parse(events[7].json))
 		    })
 		  }
 		}

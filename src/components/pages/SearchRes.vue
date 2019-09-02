@@ -5,7 +5,7 @@
         <i class="iconfont icon-fanhui"></i>
       </div>
       <form action="/">
-        <van-search v-model="value" placeholder="音乐、视频、歌词、电台"/>
+        <van-search v-model="value" placeholder="音乐、视频、歌词、电台" />
       </form>
     </div>
 	  <div class="single" v-show="songs.length !== 0">

@@ -1,5 +1,5 @@
 <template>
-  <div id="video-d">
+  <div id="video-d" v-if="show">
 	  <my-header :title="data.name" class="my-header"></my-header>
 	  <video class="video-look" controls="controls" :src="data.brs[480]" width="500px" height="500px" loop autoplay
 		         :poster="data.cover"></video>
@@ -102,9 +102,11 @@
     components: {MyHeader},
     data() {
 		  return {
+		    show: false,
 				data: {},
 			  relate: [],
-			  comment: []
+			  comment: [],
+			  scrollTop: 0
 		  }
 		},
 		created() {
@@ -162,6 +164,7 @@
 		      console.log(res)
 			    let { data } = res.data
 			    this.data = data
+			    this.show = true
 		    })
 		    this.axios.post(url1).then(res => {
 		      console.log(res)

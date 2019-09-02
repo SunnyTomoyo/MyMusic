@@ -46,8 +46,8 @@
 		  this.getAllData()
 		},
 	  mounted() {
-		  console.log(this.$refs.bgImage.clientHeight)
-		  console.log(this.$refs.myHeader.$el.clientHeight)
+		  // console.log(this.$refs.bgImage.clientHeight)
+		  // console.log(this.$refs.myHeader.$el.clientHeight)
 		  this.imageHeight = this.$refs.bgImage.clientHeight
 		  this.minTransalteY = -this.imageHeight + this.$refs.myHeader.$el.clientHeight
       this.$refs.list.$el.style.top = `${this.imageHeight}px`

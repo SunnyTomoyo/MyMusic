@@ -209,8 +209,6 @@
 					      console.log(res)
 						    let { urls } = res.data
 						    arr.splice(index,1,urls[0].url)
-						    // this.videoUrl.push(urls[0].url)
-						    // this.videoUrl[index] = urls[0].url
 					    })
 					  } else {
 					    arr.splice(index,1,'')

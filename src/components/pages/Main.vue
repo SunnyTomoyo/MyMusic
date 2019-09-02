@@ -127,21 +127,20 @@
 		methods: {
 		  getSongList() {
         this.axios.post('/api/personalized').then(res => {
-          console.log(res)
+          // console.log(res)
           this.songList = res.data.result.filter((item, i) => i<6)
-          console.log(this.songList)
         }).catch(err => {
           console.log(err)
         })
         this.axios.post('/api/personalized/newsong').then(res => {
-          console.log(res)
+          // console.log(res)
 	        let { result } = res.data
 	        this.newSong = result.filter((item, i) => i<6)
         }).catch(err => {
           console.log(err)
         })
         this.axios.post('/api/album/newest').then(res => {
-          console.log(res)
+          // console.log(res)
 	        let { albums } = res.data
 	        this.newAlbum = albums.filter((item, i) => i<6)
         }).catch(err => {

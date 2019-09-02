@@ -33,7 +33,6 @@
 
 <script>
 	var _this = {}
-	import BScroll from "better-scroll"
 	import {mapState} from 'vuex'
 	import MyHeader from "../component/MyHeader";
   export default {
@@ -89,12 +88,12 @@
 	  mounted() {
 		  this.topArr.push(this.$refs.top.clientHeight)
 		  this.topArr.push(this.$refs.top.clientHeight)
-		  console.log(this.topArr)
+		  // console.log(this.topArr)
 		  setTimeout(this.initSwiper, 30)
 	  },
 	  watch: {
 		  outSide(newV) {
-				console.log(newV)
+				// console.log(newV)
 		  }
 	  },
 		methods: {
