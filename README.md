@@ -3,10 +3,9 @@
 > 一个音乐播放器。本播放器借用网易开源数据接口，详情见：https://binaryify.github.io/NeteaseCloudMusicApi/#/
 
 ## Build Setup
-![登录页](https://sunnytomoyo.github.io/MyMusic/%E4%B8%8A%E4%BC%A0%E7%9A%84%E5%9B%BE%E7%89%87/1.png/w/280/h/498)
-![登录页](https://sunnytomoyo.github.io/MyMusic/%E4%B8%8A%E4%BC%A0%E7%9A%84%E5%9B%BE%E7%89%87/1.png/w/280/h/498)
-![登录页](https://sunnytomoyo.github.io/MyMusic/%E4%B8%8A%E4%BC%A0%E7%9A%84%E5%9B%BE%E7%89%87/1.png/w/280/h/498)
-
+#### 功能模块概述及预览截图
+- **登录**
+    <br/>让用户登录自己的账号，获取个人基本信息。
 <img style="display:inline" src="https://sunnytomoyo.github.io/MyMusic/%E4%B8%8A%E4%BC%A0%E7%9A%84%E5%9B%BE%E7%89%87/1.png" width=80 height=498 />
 <img style="display:inline" src="https://sunnytomoyo.github.io/MyMusic/%E4%B8%8A%E4%BC%A0%E7%9A%84%E5%9B%BE%E7%89%87/2.png" width=28 height=498 />
 <img style="display:inline" src="https://sunnytomoyo.github.io/MyMusic/%E4%B8%8A%E4%BC%A0%E7%9A%84%E5%9B%BE%E7%89%87/3.png" width=28 height=498 />
