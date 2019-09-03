@@ -2,6 +2,7 @@
 
 > 一个音乐播放器。本播放器借用网易开源数据接口，详情见：https://binaryify.github.io/NeteaseCloudMusicApi/#/
 
+> 下载项目启动后，http://(你的电脑IP地址):8080即可访问。手机同一局域网内建议QQ浏览器直接访问。
 
 #### 功能模块概述及预览截图
 - **登录**
@@ -72,13 +73,13 @@
 
 ``` bash
 # install dependencies
-npm install
+yarn install
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn run dev
 
 # build for production with minification
-npm run build
+yarn build
 
 # build for production and view the bundle analyzer report
 npm run build --report
