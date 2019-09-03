@@ -2,7 +2,7 @@
 
 > 一个音乐播放器。本播放器借用网易开源数据接口，详情见：https://binaryify.github.io/NeteaseCloudMusicApi/#/
 
-## Build Setup
+
 #### 功能模块概述及预览截图
 - **登录**
     <br/>让用户登录自己的账号，获取个人基本信息。
@@ -13,7 +13,16 @@
            width=275 height=489 />
     <img style="display:inline" src="https://sunnytomoyo.github.io/MyMusic/%E4%B8%8A%E4%BC%A0%E7%9A%84%E5%9B%BE%E7%89%87/3.png" 
            width=275 height=489 />
+           
+- **我的**
+    <br/>主要是显示用户当前所创建和收藏的歌单。以及歌单的详细列表。  
     
+    <img style="display:inline" src="https://sunnytomoyo.github.io/MyMusic/%E4%B8%8A%E4%BC%A0%E7%9A%84%E5%9B%BE%E7%89%87/7.png" 
+           width=275 height=489 />
+    <img style="display:inline" src="https://sunnytomoyo.github.io/MyMusic/%E4%B8%8A%E4%BC%A0%E7%9A%84%E5%9B%BE%E7%89%87/16.png" 
+           width=275 height=489 />
+       
+## Build Setup    
 
 ``` bash
 # install dependencies
