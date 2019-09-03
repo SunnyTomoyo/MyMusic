@@ -3,6 +3,7 @@
 > 一个音乐播放器
 
 ## Build Setup
+ ![](https://sunnytomoyo.github.io/MyMusic/%E4%B8%8A%E4%BC%A0%E7%9A%84%E5%9B%BE%E7%89%87/1.png =100x100)
 <img src="https://sunnytomoyo.github.io/MyMusic/%E4%B8%8A%E4%BC%A0%E7%9A%84%E5%9B%BE%E7%89%87/1.png" style="width:100px;height:100px" />
 <img src="https://sunnytomoyo.github.io/MyMusic/%E4%B8%8A%E4%BC%A0%E7%9A%84%E5%9B%BE%E7%89%87/1.png" width=100 height=100 />
 <img src="https://sunnytomoyo.github.io/MyMusic/%E4%B8%8A%E4%BC%A0%E7%9A%84%E5%9B%BE%E7%89%87/1.png" width=100 height=100 />
