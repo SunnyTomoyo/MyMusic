@@ -1,6 +1,6 @@
 # my-music
 
-> 一个音乐播放器
+> 一个音乐播放器。本播放器借用网易开源数据接口，详情见：https://binaryify.github.io/NeteaseCloudMusicApi/#/
 
 ## Build Setup
 
